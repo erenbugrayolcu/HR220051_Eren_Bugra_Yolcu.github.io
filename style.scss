@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+
+    .home-page{
+        width: 910px;
+        height: 1350px;
+        margin: 0 auto;
+
+        .left-block{
+            display: flex;
+            align-items: center;
+            .black{
+                width: 300px;
+                height: 400px;
+                background: #151515;
+            }
+            .image{
+                width: 300px;
+                height: 400px;
+                background-image: url(desktop/image-hero.jpg);
+                background-position: center;
+                object-fit: fill;
+            }
+
+            .text-button{
+                width: 300px;
+                height: 400px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                padding: 65px;
+                margin-left: -75px;
+
+                .text{
+                    color: #151515;
+                }
+
+                .button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        width: 200px;
+                        height: 50px;
+                        display: flex;
+                        text-decoration: none;
+
+                        &:hover{
+                            button{
+                                color: #151515;
+                                background-color: #D5966C;
+                                cursor: pointer;
+                            }
+
+                            .arrow{
+                                background-color: #151515;
+                            }
+                            
+                        }
+                        
+                        button{
+                            width: 150px;
+                            height: 50px;
+                            color: #fff;
+                            background-color: #151515;
+                        }
+    
+                        .arrow{
+                            width: 50px;
+                            height: 50px;
+                            background-image: url(icon-arrow-right.svg);
+                            background-repeat: no-repeat;
+                            background-color: #D5966C;
+                            background-position: center;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        .bottom-block{
+            width: 100%;
+            height: 850px;
+            background: red;
+            padding: 100px;
+            display: flex;
+            flex-direction: column;
+
+            .top{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+
+                .text{
+                    margin-top: 25px;
+                }
+
+                .image{
+                    background-image: url(desktop/image-grid-1.jpg);
+                    width: 317.5px;
+                    height: 200px;
+                    background-position: center;
+                }
+            }
+
+            .bottom{
+                width: 100%;
+                height: 420px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+
+                .left{
+                    width: 60%;
+                    height: 100%;
+                    .image{
+                        background-image: url(desktop/image-grid-2.jpg);
+                        width: 317.5px;
+                        height: 360px;
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        margin-left: 30px;
+                        margin-top: 30px;
+                    }
+                }
+
+                .right{
+                    width: 100%;
+                    height: 100%;
+                    .top{
+                        background-image: url(desktop/image-grid-3.jpg);
+                        width: 317.5px;
+                        height: 360px;
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        margin-left: 30px;
+                        margin-top: -40px;
+                    } 
+                    .bottom{
+                        background-color: #151515;
+                        width: 317.5px;
+                        height: 110px;
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        margin-left: 30px;
+                        margin-top: -40px;
+                        display: flex;
+                        color: #fff;
+                        flex-direction: column;
+                        text-align: left;
+                        h3{
+                            margin-left: -128px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer{
+            width: 100%;
+            height: 100px;
+            color: #fff;
+            background-color: #151515;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            padding-top: 20px;
+
+            .left{
+                padding-top: 20px;
+            }
+
+            .right{
+                width: 75px;
+                display: flex;
+                background-repeat: no-repeat;
+                justify-content: space-between;
+                align-items: center;
+                .facebook{
+                    background-image: url(icon-facebook.svg);
+                    width: 20px;
+                    height: 20px;
+                }
+
+                .instagram{
+                    background-image: url(icon-instagram.svg);
+                    width: 20px;
+                    height: 20px;
+                }
+
+                .twitter{
+                    background-image: url(icon-twitter.svg);
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}

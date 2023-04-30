@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html .home-page, body .home-page {
+  width: 910px;
+  height: 1350px;
+  margin: 0 auto;
+}
+html .home-page .left-block, body .home-page .left-block {
+  display: flex;
+  align-items: center;
+}
+html .home-page .left-block .black, body .home-page .left-block .black {
+  width: 300px;
+  height: 400px;
+  background: #151515;
+}
+html .home-page .left-block .image, body .home-page .left-block .image {
+  width: 300px;
+  height: 400px;
+  background-image: url(desktop/image-hero.jpg);
+  background-position: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+html .home-page .left-block .text-button, body .home-page .left-block .text-button {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 65px;
+  margin-left: -75px;
+}
+html .home-page .left-block .text-button .text, body .home-page .left-block .text-button .text {
+  color: #151515;
+}
+html .home-page .left-block .text-button .button, body .home-page .left-block .text-button .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .home-page .left-block .text-button .button a, body .home-page .left-block .text-button .button a {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  text-decoration: none;
+}
+html .home-page .left-block .text-button .button a:hover button, body .home-page .left-block .text-button .button a:hover button {
+  color: #151515;
+  background-color: #D5966C;
+  cursor: pointer;
+}
+html .home-page .left-block .text-button .button a:hover .arrow, body .home-page .left-block .text-button .button a:hover .arrow {
+  background-color: #151515;
+}
+html .home-page .left-block .text-button .button a button, body .home-page .left-block .text-button .button a button {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: #151515;
+}
+html .home-page .left-block .text-button .button a .arrow, body .home-page .left-block .text-button .button a .arrow {
+  width: 50px;
+  height: 50px;
+  background-image: url(icon-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-color: #D5966C;
+  background-position: center;
+}
+html .home-page .bottom-block, body .home-page .bottom-block {
+  width: 100%;
+  height: 850px;
+  background: red;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+html .home-page .bottom-block .top, body .home-page .bottom-block .top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+html .home-page .bottom-block .top .text, body .home-page .bottom-block .top .text {
+  margin-top: 25px;
+}
+html .home-page .bottom-block .top .image, body .home-page .bottom-block .top .image {
+  background-image: url(desktop/image-grid-1.jpg);
+  width: 317.5px;
+  height: 200px;
+  background-position: center;
+}
+html .home-page .bottom-block .bottom, body .home-page .bottom-block .bottom {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+html .home-page .bottom-block .bottom .left, body .home-page .bottom-block .bottom .left {
+  width: 60%;
+  height: 100%;
+}
+html .home-page .bottom-block .bottom .left .image, body .home-page .bottom-block .bottom .left .image {
+  background-image: url(desktop/image-grid-2.jpg);
+  width: 317.5px;
+  height: 360px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+html .home-page .bottom-block .bottom .right, body .home-page .bottom-block .bottom .right {
+  width: 100%;
+  height: 100%;
+}
+html .home-page .bottom-block .bottom .right .top, body .home-page .bottom-block .bottom .right .top {
+  background-image: url(desktop/image-grid-3.jpg);
+  width: 317.5px;
+  height: 360px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: -40px;
+}
+html .home-page .bottom-block .bottom .right .bottom, body .home-page .bottom-block .bottom .right .bottom {
+  background-color: #151515;
+  width: 317.5px;
+  height: 110px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: -40px;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  text-align: left;
+}
+html .home-page .bottom-block .bottom .right .bottom h3, body .home-page .bottom-block .bottom .right .bottom h3 {
+  margin-left: -128px;
+}
+html .home-page .footer, body .home-page .footer {
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  background-color: #151515;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 20px;
+}
+html .home-page .footer .left, body .home-page .footer .left {
+  padding-top: 20px;
+}
+html .home-page .footer .right, body .home-page .footer .right {
+  width: 75px;
+  display: flex;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  align-items: center;
+}
+html .home-page .footer .right .facebook, body .home-page .footer .right .facebook {
+  background-image: url(icon-facebook.svg);
+  width: 20px;
+  height: 20px;
+}
+html .home-page .footer .right .instagram, body .home-page .footer .right .instagram {
+  background-image: url(icon-instagram.svg);
+  width: 20px;
+  height: 20px;
+}
+html .home-page .footer .right .twitter, body .home-page .footer .right .twitter {
+  background-image: url(icon-twitter.svg);
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */
